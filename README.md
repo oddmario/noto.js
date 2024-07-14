@@ -22,10 +22,22 @@ To include Noto.js from jsDelivr, append the following line inside your `<head><
 <script src="https://cdn.jsdelivr.net/gh/oddmario/noto.js/dist/noto-v1.0.min.js"></script>
 ```
 
-You can then start making your web page look prettier by using the one and only function of Noto.js, `notojs.parse`:
+You can then start making your web pages look prettier using the main function of Noto.js, `notojs.parse()`:
 ```js
 notojs.parse(document.body) // finds any emojis inside the DOM body and converts them to Google Noto emojis
 notojs.parse(document.querySelector("#mycooldiv")) // finds any emojis inside the #mycooldiv DOM element and converts them to Google Noto emojis
+```
+
+**Or alternatively:**
+
+You can apply the `ntemoji` class on any element that contains an emoji. It will use the Google Noto Emoji font as long as Noto.js has been initialised using `notojs.init()` at least once.
+
+```html
+<script>
+  notojs.init();
+</script>
+
+<span class="ntemoji">🥸</span>
 ```
 
 ### Simple is it not?

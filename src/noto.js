@@ -1,5 +1,5 @@
 /*
-  Noto.js - Google Noto Emojis for the web
+  Noto.js v1.0 - Google Noto Emojis for the web
   Author: Mario / www.mqrio.dev
   Licensed under MIT.
 

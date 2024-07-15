@@ -9,7 +9,7 @@
 a project inspired by the Twitter/X Twemoji project — https://github.com/twitter/twemoji — **but** for the Google Emoji set instead
 
 <p align="center">
-  <img width="700" height="auto" src="https://i.ibb.co/sJTdxKQ/Screenshot-from-2024-07-14-14-30-20.png">
+  <img width="700" height="auto" src="https://i.ibb.co/VWgdGf7/image.png">
 </p>
 
 -----
@@ -19,7 +19,7 @@ You may include Noto.js from the [jsDelivr CDN](https://www.jsdelivr.com/), or y
 
 To include Noto.js from jsDelivr, append the following line inside your `<head></head>` tag:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/oddmario/noto.js/dist/noto-v1.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/oddmario/noto.js/dist/noto-v1.1.min.js"></script>
 ```
 
 You can then start making your web pages look prettier using the main function of Noto.js, `notojs.parse()`:

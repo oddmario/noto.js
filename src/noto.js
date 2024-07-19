@@ -1,5 +1,5 @@
 /*
-  Noto.js v1.1 - Google Noto Emojis for the web
+  Noto.js v1.2 - Google Noto Emojis for the web
   Author: Mario / www.mqrio.dev
   Licensed under MIT.
 */
@@ -28,7 +28,7 @@ const notojs = {
                     img.style.width = "1.3em";
                     img.style.height = "1.3em";
                     img.style.margin = "0 .05em 0 .1em";
-                    img.style.verticalAlign = "-.3em";
+                    img.style.verticalAlign = "-.25em";
                     parentNode.insertBefore(img, textNode);
                 }
             }
